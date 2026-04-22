@@ -1,16 +1,13 @@
-# Failed Login Parser
+# Cybersecurity Portfolio
+Learning cybersecurity through hands-on practice on Kali Linux.
 
-A Python tool that detects failed SSH login attempts on Linux systems using journalctl.
+## Projects
+| Week | Project | Tools |
+|------|---------|-------|
+| 1 | Log Analysis | Bash, grep, awk, sed |
+| 1 | Network Analysis | Wireshark |
+| 2 | Failed Login Parser | Python, journalctl |
 
-## How to run
+## Run the tools
+bash log_analyzer.sh
 python3 login_parser.py
-
-## What it does
-- Pulls system logs using journalctl
-- Filters lines containing failed login attempts
-- Displays each attempt numbered with a total count
-
-## Built with
-- Python 3
-- subprocess module
-- Kali Linux
